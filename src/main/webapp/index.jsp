@@ -5,6 +5,7 @@
 	<title>Chick Norris</title>
 	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap/bootstrap.css"/>
 	<link rel="stylesheet" type="text/css" href="resources/css/header.css"/>
+	<link rel="stylesheet" type="text/css" href="resources/css/footer.css"/>
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Indie+Flower"/>
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
