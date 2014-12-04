@@ -52,3 +52,19 @@ body {
 .dropdown-header {
 	color: #db6836;
 }
+
+#top-nav {
+	width: 800px;
+	margin-top: -30px;
+	margin-left: 100px;
+	float: left;
+}
+
+#top-nav ul {
+	list-style: none;
+}
+
+#top-nav ul li {
+	float: left;
+	margin-left: 20%;
+}
