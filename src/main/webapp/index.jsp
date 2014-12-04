@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap/bootstrap.css"/>
 	<link rel="stylesheet" type="text/css" href="resources/css/header.css"/>
 	<link rel="stylesheet" type="text/css" href="resources/css/footer.css"/>
+	<link rel="stylesheet" type="text/css" href="resources/css/media-queries.css"/>
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Indie+Flower"/>
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -27,17 +28,17 @@
       		</ol>
       		<div class="carousel-inner" role="listbox">
         		<div class="item">
-          			<img src="resources/images/slideshow/Partyservice.jpg" alt="First slide">
+          			<img src="resources/images/slideshow/shutterstock_70256782.jpg" alt="First slide" style="width: 60%; margin-left: auto; margin-right: auto;">
           			<div class="container">
             			<div class="carousel-caption">
-              				<h1>Example headline.</h1>
-              				<p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+              				<h1></h1>
+              				<p></p>
               				<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
             			</div>
           			</div>
         		</div>
         		<div class="item">
-          			<img src="resources/images/slideshow/shutterstock_13839559.jpg" alt="Second slide">
+          			<img src="resources/images/slideshow/shutterstock_13839559.jpg" alt="Second slide" style="width: 60%; margin-left: auto; margin-right: auto;">
           			<div class="container">
             			<div class="carousel-caption">
               				<h1>Another example headline.</h1>
@@ -47,7 +48,7 @@
           			</div>
         		</div>
         		<div class="item active">
-          			<img src="resources/images/slideshow/shutterstock_184897820.jpg" alt="Third slide">
+          			<img src="resources/images/slideshow/shutterstock_184897820.jpg" alt="Third slide" style="width: 60%; margin-left: auto; margin-right: auto;">
           			<div class="container">
             			<div class="carousel-caption">
               				<h1>One more for good measure.</h1>
