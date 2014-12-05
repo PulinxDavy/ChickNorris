@@ -1,7 +1,10 @@
+
+
 $(function(){
   $("#header").load("header.html");
   $("#footer").load("footer.html");
-  $(".mnu.collapse").collapse("show");
+ // $(".mnu.collapse").collapse("show");
+  
 });
 
 $(function(){
