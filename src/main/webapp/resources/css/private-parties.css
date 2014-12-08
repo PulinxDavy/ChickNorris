@@ -46,3 +46,75 @@
 #text-wrapper button {
 	margin-top: 3%;
 }
+
+/* ============================================================
+						Formula
+   ============================================================ */
+#formula-wrapper {
+	background-color: #363636;
+	width: 100%;
+	height: 100%;
+}
+
+.formula-center {
+	width: 80%;
+	height: 190px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.panel-heading {
+	background-color: #85150f;
+}
+	.panel-title {
+		color: #dbd1c2;
+		font-family: 'Indie Flower';
+		font-size: 14pt;
+		font-weight: bold;
+	}
+.panel-body span {
+	font-weight: bold;
+}
+
+.formula-extra {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #85150f;
+	font-family: 'Indie Flower';
+}
+	.formula-extra h3 {
+		font-weight: bold;
+	}
+
+.formula {
+	background-color: #dbd1c2;
+	float: left;
+	margin-top: 10px;
+	width: 49.5%;
+}
+
+.formula-spacing {
+	margin-left: 1%;
+}
+
+#formula-extrainfo {
+	background-color: #dbd1c2;
+	margin-top: 42px;
+	text-align: center;
+}
+
+#fine-print {
+	text-align: left;
+	font-size: 7pt;
+}
+
+#phone {
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+#fix-costs {
+	font-weight: bold;
+}
