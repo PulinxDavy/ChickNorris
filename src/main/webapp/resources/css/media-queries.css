@@ -128,6 +128,25 @@
 		margin-top: 1%;
 		margin-bottom: 1%;
 	}
+	.formula-extra {
+		margin-top: 55px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 823px) {
+	.formula {
+		height: 296px;
+	}
+	.formula-extra {
+		height: 65px;
+		margin-top: 120px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 823px) {
+	.formula{
+		font-size: 10pt;
+	}
 }
 
 @media (max-width: 767px) {
@@ -172,7 +191,22 @@
 		margin-top: -1%;
 		margin-bottom: 3%;
 	}
-	
+	#content {
+		overflow: visible;
+	}
+	.formula {
+		float: none;
+		width: 100%;
+	}
+	.formula-spacing {
+		margin-left: 0;
+	}
+	.formula-center {
+		height: auto;
+	}
+	.formula-extra h3 {
+		padding-top: 0;
+	}
 }
 
 @media (max-width: 480px) {
@@ -214,10 +248,44 @@
 	.title-page h2 {
 		padding-left: 35%;
 	}
+	
+	#private-wrapper {
+		height: auto;
+	}
+}
+
+@media (min-width: 349px) and (max-width: 354px) {
+	#private-wrapper {
+		height: 600px;
+	}
+}
+
+@media (min-width: 338px) and (max-width: 348px) {
+	#private-wrapper {
+		height: 610px;
+	}
+	.panel-body a {
+	margin-left: 25%;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 339px) {
+	#private-wrapper {
+		height: 620px;
+	}
+	.panel-body a {
+	margin-left: 20%;
+	}	
 }
 
 @media (max-width: 320px) {
 	.title-page h2 {
 		padding-left: 35%;
+	}
+	#private-wrapper {
+		height: 620px;
+	}
+	.panel-body a {
+	margin-left: 10%;
 	}
 }
