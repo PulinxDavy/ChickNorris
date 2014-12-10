@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap/bootstrap.css"/>
 	<link rel="stylesheet" type="text/css" href="resources/css/header.css"/>
 	<link rel="stylesheet" type="text/css" href="resources/css/footer.css"/>
+	<link rel="stylesheet" type="text/css" href="resources/css/index.css"/>
 	<link rel="stylesheet" type="text/css" href="resources/css/media-queries.css"/>
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Indie+Flower"/>
 	<!--[if lt IE 9]>
@@ -66,6 +67,15 @@
         		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         		<span class="sr-only">Next</span>
       		</a>
+    	</div>
+    	<div id="media-bar">
+    		<div id="media-bar-left">
+    			<p>Mis nooit een lekkere deal!</p>
+    		</div>
+    		<div id="media-bar-seperator"></div>
+    		<div id="media-bar-right">
+    			<p>Volg je smaakpapillen</p>
+    		</div>
     	</div>
 	</div>
 	<div id="footer"></div>

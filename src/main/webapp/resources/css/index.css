@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+
+#media-bar {
+	background-image: url(../images/bar-background.png);
+	width: 100%;
+	height: 150px;
+}
+#media-bar-seperator {
+	width: 4px;
+	height: 150px;
+	background-image: url(../images/bar-line.png);
+	margin-left: auto;
+	margin-right: auto;
+}
+#media-bar-left {
+	float: left;
+}
+#media-bar-right {
+	float: right;
+}
