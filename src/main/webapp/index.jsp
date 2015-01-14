@@ -69,12 +69,18 @@
       		</a>
     	</div>
     	<div id="media-bar">
-    		<div id="media-bar-left">
+    		<div class="col-xs-2"></div>
+    		<div id="media-bar-left" class="col-xs-3">
     			<p>Mis nooit een lekkere deal!</p>
+    			<a class="btn btn-default btn-media" href="#">Email Updates</a>
     		</div>
-    		<div id="media-bar-seperator"></div>
-    		<div id="media-bar-right">
-    			<p>Volg je smaakpapillen</p>
+    		<div class="col-xs-2">
+    			<div id="media-bar-seperator"></div>
+    		</div>
+    		<div id="media-bar-right" class="col-xs-3">
+    			<p>Volg je smaakpapillen!</p>
+    			<a href="#"><img src="resources/images/facebook.png"/></a>
+    			<a href="#"><img src="resources/images/twitter.png"/></a>
     		</div>
     	</div>
 	</div>

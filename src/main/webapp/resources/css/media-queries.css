@@ -150,21 +150,6 @@
 }
 
 @media (max-width: 767px) {
-	#footer-wrapper {
-		text-align: center;
-	}
-	#footer-wrapper ul li {
-		float: none;
-		margin: 0;
-	}
-	
-	.ftr-allignement {
-		margin-left: 0;
-	}
-	#footer{
-		height: 100%;
-		margin-top: -10px;
-	}
 	.title-page {
 		height: 35px;
 	}
