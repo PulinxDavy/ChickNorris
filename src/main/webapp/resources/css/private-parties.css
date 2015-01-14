@@ -26,3 +26,29 @@
 /* ============================================================
 						Formula
    ============================================================ */
+
+#private-wrapper .image {
+	padding-left: 0;
+	padding-top: 20px;
+}
+
+#formula-wrapper .panel {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#formula-wrapper .panel-title {
+	color: #e9500e;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+#formula-wrapper .panel-body {
+	font-size: 12pt;
+}
+
+.formula-extra {
+	text-align: center;
+	font-weight: bold;
+	color: #85150f
+}

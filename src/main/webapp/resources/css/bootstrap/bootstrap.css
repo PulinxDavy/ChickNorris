@@ -5067,6 +5067,7 @@ a.list-group-item-danger.active:focus {
 }
 .panel-body {
   padding: 15px;
+  color: #dbd1c2;
 }
 .panel-heading {
   padding: 10px 15px;
@@ -5291,6 +5292,10 @@ a.list-group-item-danger.active:focus {
   color: #dbd1c2;
   background-color: #363636;
   border-color: #363636;
+  text-align: center;
+	-webkit-box-shadow: inset 0px 5px 15px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 5px 15px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 5px 15px 0px rgba(0,0,0,0.75);
 }
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #ddd;
