@@ -26,29 +26,80 @@
 /* ============================================================
 						Formula
    ============================================================ */
-
-#private-wrapper .image {
-	padding-left: 0;
-	padding-top: 20px;
+#private-wrapper {
+	margin-top: 20px;
+	padding: 20px;
+	height: 100%;
 }
 
-#formula-wrapper .panel {
+#private-wrapper .image {
 	padding-left: 0;
 	padding-right: 0;
 }
 
+#formula-wrapper .panel {
+	padding: 0;
+}
+
 #formula-wrapper .panel-title {
 	color: #e9500e;
-	font-size: 14pt;
+	font-size: 1.4em;
 	font-weight: bold;
 }
 
 #formula-wrapper .panel-body {
-	font-size: 12pt;
+	font-size: 1.1em;
+}
+
+#formula-wrapper span {
+	float: right;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+
+#formula-wrapper .panel-body a {
+	float: right;
 }
 
 .formula-extra {
 	text-align: center;
 	font-weight: bold;
 	color: #85150f
+}
+
+.promoContainer {
+	background-color: #363636;
+	padding-top: 20px;
+	padding-right: 0px;
+	border: 1px solid transparent;
+  	border-bottom-right-radius: 4px;
+  	border-bottom-left-radius: 4px;
+   	-webkit-box-shadow: inset 0px 5px 15px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 5px 15px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 5px 15px 0px rgba(0,0,0,0.75);
+}
+
+.promoContainer h3 {
+	color: #e9500e;
+	padding: 0;
+}
+
+#formula-extrainfo {
+	text-align: center;
+	font-size: 1.4em;
+}
+
+#phone {
+	font-size: 1.6em;
+	font-weight: bold;
+	color: #85150f
+}
+
+#fine-print {
+	text-align: left;
+	font-family: Arial,Helvetica,Garuda,sans-serif;
+	font-size: 0.5em;
+	background-color: #363636;
+	color: #dbd1c2;
+	padding: 5px;
 }

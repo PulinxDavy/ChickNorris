@@ -1,31 +1,5 @@
 @CHARSET "UTF-8";
 
-@media (max-width: 1450px) {
-	#text-wrapper h3 {
-		padding-top: 2%;
-	}
-	#text-wrapper p {
-		padding-top: 2%;
-		font-size: 12pt;
-	}
-	#text-wrapper button {
-		margin-top: 2%;
-	}
-}
-
-@media (max-width: 1330px) {
-	#text-wrapper h3 {
-		padding-top: 0%;
-	}
-	#text-wrapper p {
-		padding-top: 0%;
-		font-size: 12pt;
-	}
-	#text-wrapper button {
-		margin-top: 0%;
-	}
-}
-
 @media (max-width: 1200px) {
     .navbar-header {
         float: none;
@@ -77,23 +51,12 @@
     #home {
     	margin-top: 5px;
     }
-    #text-wrapper h3 {
-		padding-top: -2%;
-		font-size: 13pt;
-	}
-	#text-wrapper p {
-		padding-top: -2%;
-		font-size: 11pt;
-	}
-	#text-wrapper button {
-		margin-top: -2%;
-	}
 }
 
-@media (max-width: 1010px) {
-	#text-wrapper h3 {
-		margin-top: 0px;
-	}
+@media (max-width: 1084px) {
+	#media-bar p {
+		font-size: 1.5em;
+	}	
 }
 
 @media (min-width: 768px) and (max-width: 980px) {
@@ -103,174 +66,30 @@
 	#top-nav ul li {
 		margin-left: 10%;
 	}
+}
+
+@media (max-width: 619px) {
+	#social-links{
+	width: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#facebook{
+	background-image: url(../images/facebookRD.png);
+	height: 30px;
+	width: 30px;
+}
+#twitter{
+	background-image: url(../images/twitterRD.png);
+	height: 30px;
+	width: 30px;
+}
+}
+
+@media (max-width: 460px) {
 	.title-page {
-		height: 35px;
-	}
-	.title-page h2 {
-		font-size: 14pt;
-	}
-	.image {
-		max-width: 100%;
-	}
-	#text-wrapper {
-		max-width: 100%;
-		float: none;
-	}
-	#text-wrapper h3 {
-		padding-top: 1%;
-		font-size: 12pt
-	}
-	#text-wrapper p {
-		padding-top: 1%;
-		font-size: 10pt;
-	}
-	#text-wrapper button {
-		margin-top: 1%;
-		margin-bottom: 1%;
-	}
-	.formula-extra {
-		margin-top: 55px;
-	}
-}
-
-@media (min-width: 768px) and (max-width: 823px) {
-	.formula {
-		height: 296px;
-	}
-	.formula-extra {
-		height: 65px;
-		margin-top: 120px;
-	}
-}
-
-@media (min-width: 768px) and (max-width: 823px) {
-	.formula{
-		font-size: 10pt;
-	}
-}
-
-@media (max-width: 767px) {
-	.title-page {
-		height: 35px;
-	}
-	.title-page h2 {
-		font-size: 14pt;
-	}
-	.image {
-		max-width: 100%;
-	}
-	#text-wrapper {
-		max-width: 100%;
-		max-height: 100%;
-		float: none;
-	}
-	#text-wrapper h3 {
-		padding-top: 1%;
-		font-size: 12pt
-	}
-	#text-wrapper p {
-		padding-top: 1%;
-		font-size: 10pt
-	}
-	#text-wrapper button {
-		margin-top: -1%;
-		margin-bottom: 3%;
-	}
-	#content {
-		overflow: visible;
-	}
-	.formula {
-		float: none;
-		width: 100%;
-	}
-	.formula-spacing {
-		margin-left: 0;
-	}
-	.formula-center {
-		height: auto;
-	}
-	.formula-extra h3 {
-		padding-top: 0;
-	}
-}
-
-@media (max-width: 480px) {
-	.title-page {
-		height: 35px;
-	}
-	.title-page h2 {
-		font-size: 14pt;
-	}
-	.image {
-		max-width: 100%;
-	}
-	#text-wrapper {
-		max-width: 100%;
-		height: 350px;
-		float: none;
-	}
-	#text-wrapper h3 {
-		padding-top: 1%;
-		font-size: 12pt
-	}
-	#text-wrapper p {
-		padding-top: 1%;
-		font-size: 10pt
-	}
-	#text-wrapper button {
-		margin-top: 1%;
-		margin-bottom: 1%;
-	}
-	.title-page {
-		text-align: left;	
-	}
-	.title-page h2 {
-		padding-left: 30%;
-	}
-}
-
-@media (max-width: 360px) {
-	.title-page h2 {
-		padding-left: 35%;
-	}
-	
-	#private-wrapper {
-		height: auto;
-	}
-}
-
-@media (min-width: 349px) and (max-width: 354px) {
-	#private-wrapper {
-		height: 600px;
-	}
-}
-
-@media (min-width: 338px) and (max-width: 348px) {
-	#private-wrapper {
-		height: 610px;
-	}
-	.panel-body a {
-	margin-left: 25%;
-	}
-}
-
-@media (min-width: 320px) and (max-width: 339px) {
-	#private-wrapper {
-		height: 620px;
-	}
-	.panel-body a {
-	margin-left: 20%;
-	}	
-}
-
-@media (max-width: 320px) {
-	.title-page h2 {
-		padding-left: 35%;
-	}
-	#private-wrapper {
-		height: 620px;
-	}
-	.panel-body a {
-	margin-left: 10%;
+		padding-top: 20px;
+		height: 90px;
 	}
 }
