@@ -5,8 +5,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Halafeesten.be - Home</title>
-<link rel="stylesheet" type="text/css" href="resources/css/bootstrap/bootstrap-halal.css" />
+<link rel="stylesheet" type="text/css" href="resources/css/bootstrap/bootstrap.css" />
 <link rel="stylesheet" type="text/css" href="resources/css/halal-home.css" />
+<link rel="stylesheet" type="text/css" href="resources/css/private-parties.css"/>
 </head>
 <body>
 	<header>
