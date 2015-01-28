@@ -1,13 +1,17 @@
 <!DOCTYPE HTML>
 
 <html>
-	<div id="top-nav">
-		<ul>
-			<li><a href="#">About CN</a></li>
-			<li><a href="#">CN Jobs</a></li>
-			<li><a href="#">Localize CN</a></li>
-		</ul>
-	</div>
+	<header class="container-fluid utility-header">
+    <div class="content">
+        <nav>
+            <ul>
+                <li><a href="#">About CN</a></li>
+                <li><a href="#">CN Jobs</a></li>
+                <li><a href="#">Localize CN</a></li>
+            </ul>
+        </nav>
+    </div>
+	</header>
 	<div id="nav-wrapper" class="navbar-wrapper">
       <div class="container">
 

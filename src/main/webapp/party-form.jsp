@@ -8,7 +8,7 @@
 	<title>Chick Norris - Verkoopsgegevens</title>
 	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap/bootstrap.min.css"/>
 	<link rel="stylesheet" type="text/css" href="resources/css/header.css"/>
-	<link rel="stylesheet" type="text/css" href="resources/css/footer1.css"/>
+	<link rel="stylesheet" type="text/css" href="resources/css/footer.css"/>
 	<link rel="stylesheet" type="text/css" href="resources/css/party-form.css"/>
 	<link rel="stylesheet" type="text/css" href="resources/css/media-queries.css"/>
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Indie+Flower"/>
@@ -33,6 +33,7 @@
     				<label for="form_firstname">Voornaam (*):</label>
     				<input type="text" class="form-control" id="form_firstname" placeholder="Vul je voornaam in.">
   				</div>
+  				
   				<div class="form-group">
     				<label for="form_firmname">Firmanaam:</label>
     				<input type="text" class="form-control" id="form_firmname" placeholder="Vul je firmanaam in.">
@@ -62,10 +63,6 @@
     				<input type="text" class="form-control" id="form_email" placeholder="Vul je emailadres in.">
   				</div>
   				<div class="form-group">
-    				<label for="form_occasion">Gelegenheid (*):</label>
-    				<textarea class="form-control" rows="3" id="form_occasion"></textarea>
-  				</div>
-  				<div class="form-group">
     				<label for="form_date">Datum event (*):</label>
     				<%java.text.DateFormat df = new java.text.SimpleDateFormat("dd/MM/yyyy"); %>
     				<input type="text" class="form-control" id="form_date" placeholder="<%= df.format(new Date()) %>">
@@ -74,6 +71,10 @@
     				<label for="form_time">Aanvang event (*):</label>
     				<%java.text.DateFormat df2 = new java.text.SimpleDateFormat("HH:mm"); %>
     				<input type="text" class="form-control" id="form_time" placeholder="<%= df2.format(new Date()) %>">
+  				</div>
+  				<div class="form-group">
+    				<label for="form_occasion">Gelegenheid (*):</label>
+    				<textarea class="form-control" rows="3" id="form_occasion"></textarea>
   				</div>
   				<label for="radio-btns">Formule:</label>
   				<div id="radio-btns">

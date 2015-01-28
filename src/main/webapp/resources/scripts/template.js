@@ -1,8 +1,8 @@
 
 
 $( document ).ready(function(){
-  $("#header").load("header.html");
-  $("#footer").load("footer.html");
+  $("#header").load("header.jsp");
+  $("#footer").load("footer.jsp");
   window.onload = processBodies($(window).width());
   $("#lnk_food").addEventListener('click', collapseFood($(window).width()));
   $("#lnk_info").addEventListener('click', collapseInfo($(window).width()));

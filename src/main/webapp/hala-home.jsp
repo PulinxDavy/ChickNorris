@@ -1,32 +1,18 @@
-<!DOCTYPE HTML>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Chick Norris</title>
-	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap/bootstrap.css"/>
-	<link rel="stylesheet" type="text/css" href="resources/css/header.css"/>
-	<link rel="stylesheet" type="text/css" href="resources/css/footer.css"/>
-	<link rel="stylesheet" type="text/css" href="resources/css/private-parties.css"/>
-	<link rel="stylesheet" type="text/css" href="resources/css/general.css"/>
-	<link rel="stylesheet" type="text/css" href="resources/css/media-queries.css"/>
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Indie+Flower"/>
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-	<!--[if lt IE 9]>
-		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-	<![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Halafeesten.be - Home</title>
+<link rel="stylesheet" type="text/css" href="resources/css/bootstrap/bootstrap-halal.css" />
+<link rel="stylesheet" type="text/css" href="resources/css/halal-home.css" />
 </head>
 <body>
-	<!-- ===============================================================
-			TODO: Issues responsive design at 360 and below
-		 =============================================================== -->
-	<div id="header"></div>
-	<div id="content">
-		<div class="title-page">
-			<h2>CN Prive Feestjes</h2>
-		</div>
-		<div id="private-wrapper" class="col-xs-12 col-md-6">
+	<header>
+		<div id="logo"></div>
+	</header>
+	<div id="private-wrapper" class="col-xs-12 col-md-6">
 			<img class="image col-xs-12" alt="" src="./resources/images/slideshow/Partyservice.jpg">
 			<div class="promoContainer col-xs-12">
 				<marquee behavior="scroll" scrollamount="2" direction="left"><h3>Hebt u zelf een idee of wenst u een gepersonaliseerd menu, contacteer ons dan via volgend telefoonnummer:  0484/03.63.75</h3></marquee>
@@ -35,7 +21,7 @@
 		<div id="formula-wrapper">
 			<div class="panel panel-default col-xs-12 col-md-3">
 				<div class="panel-heading">
-        			<a class="panel-title" data-toggle="collapse" data-target="#collapseOne">Formula 1: CN Basic</a>
+        			<a class="panel-title" data-toggle="collapse" data-target="#collapseOne">Formula 1</a>
     			</div>
     			<div id="collapseOne" class="panel-collapse collapse in">
 					<div class="panel-body">
@@ -52,7 +38,7 @@
 			</div>
 			<div class="panel panel-default col-xs-12 col-md-3">
 				<div class="panel-heading">
-        			<a class="panel-title" data-toggle="collapse" data-target="#collapseTwo">Formula 2: CN Regular</a>
+        			<a class="panel-title" data-toggle="collapse" data-target="#collapseTwo">Formula 2</a>
     			</div>
     			<div id="collapseTwo" class="panel-collapse collapse in">
 					<div class="panel-body">
@@ -72,7 +58,7 @@
 			</div>
 			<div class="panel panel-default col-xs-12 col-md-3">
 				<div class="panel-heading">
-        			<a class="panel-title" data-toggle="collapse" data-target="#collapseThree">Formula 3: CN Deluxe</a>
+        			<a class="panel-title" data-toggle="collapse" data-target="#collapseThree">Formula 3</a>
     			</div>
     			<div id="collapseThree" class="panel-collapse collapse in">
 					<div class="panel-body">
@@ -90,7 +76,7 @@
 			</div>
 			<div class="panel panel-default col-xs-12 col-md-3">
 				<div class="panel-heading">
-       				<a class="panel-title" data-toggle="collapse" data-target="#collapseFour">Formula 4: CN VIP</a>
+       				<a class="panel-title" data-toggle="collapse" data-target="#collapseFour">Formula 4</a>
    				</div>
    				<div id="collapseFour" class="panel-collapse collapse in">
 					<div class="panel-body">
@@ -119,15 +105,8 @@
 				</ul>
 			</div>
 		</div>
-	</div>
-	<div id="footer"></div>
-	
-	<!-- JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
 	<script type="text/javascript" src="resources/scripts/jquery.js"></script>
 	<script type="text/javascript" src="resources/scripts/bootstrap/bootstrap.min.js"></script>
-	<script type="text/javascript" src="resources/scripts/template.js"></script>
 	<script type="text/javascript" src="resources/scripts/bootstrap/docs.min.js"></script>
 	<script type="text/javascript" src="resources/scripts/bootstrap/ie10-viewport-bug-workaround.js"></script>
 </body>
